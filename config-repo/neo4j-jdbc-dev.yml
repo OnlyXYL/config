@@ -22,3 +22,5 @@ storage:
     url: bolt://localhost:7687
     userName: neo4j
     password: password
+
+foo: hello,this is neo4j-jdbc dev
