@@ -14,7 +14,7 @@ spring:
   cloud:
     config:
       name: neo4j-jdbc
-      profile: dev
+      profile: test
 
 #存储相关配置
 storage:
