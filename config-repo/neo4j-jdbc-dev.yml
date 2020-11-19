@@ -23,4 +23,4 @@ storage:
     userName: neo4j
     password: password
 
-foo: hello,this is neo4j-jdbc dev1111
+foo: hello,this is neo4j-jdbc dev
