@@ -12,6 +12,9 @@ spring:
       max-file-size: 104857600
       max-request-size: 524288000
   cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false  
     config:
       name: neo4j-jdbc
       profile: dev
