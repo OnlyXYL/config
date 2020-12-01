@@ -1,8 +1,5 @@
 server:
   port: 8764
-  servlet:
-    context-path: /neo4j-jdbc
-
 spring:
   application:
     name: neo4j-jdbc
