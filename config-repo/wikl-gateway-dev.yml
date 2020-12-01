@@ -21,6 +21,4 @@ spring:
         - id: neo4j-jdbc
           uri: lb://neo4j-jdbc
           predicates:
-            - Path=/neo4j-jdbc/neo4j/config/**
-#          filters:
-#            - StripPrefix=1
+            - Path=/neo4j/config/**
